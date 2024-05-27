@@ -1,0 +1,612 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body class="flex flex-col items-center">
+
+    <!-- TOP INFO SECTION BEGINS HERE -->
+    <section class="flex flex-row justify-between bg-[#2875D9] h-[60px] px-[10px] sm:px-[40px] w-full">
+
+        <div
+            class="inline-flex items-center justify-center text-white gap-x-[10px] text-[12px] sm:text-[14px] font-semibold">
+            <i class="fa-solid fa-phone text-[12px]"></i>
+            <h1>00447973834434</h1>
+        </div>
+
+        <div class=" md-inline-flex items-center justify-center text-white gap-x-[10px] text-[15px] font-light">
+            <h1>321-323 High Road , Office No - 4125 , RomFord , England , RM6 6AX</h1>
+        </div>
+
+        <div class="inline-flex items-center justify-center text-white gap-x-[10px] text-[14px] font-semibold">
+            <i class="fa-regular fa-envelope  text-[12px] sm:text-[14px]"></i>
+            <h1>ziofytraders@gmail.com</h1>
+        </div>
+
+    </section>
+
+    <!-- NAVBAR SECTION BEGINS HERE -->
+    <section
+        class="flex flex-row items-center justify-between h-[100px] w-full shadow-md pr-[40px] relative md:px-[40px] ">
+        <img src="/assets/logo.png" class="object-contain  w-[200px] md:w-[300px]" style="object-fit: contain;" alt="">
+
+        <div class="h-full gap-x-[20px] md-inline-flex flex-row items-center">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#products">Our Products</a>
+            <a href="#features">Features</a>
+            <a href="#footer">Contact Us</a>
+        </div>
+
+        <div id="menuContainer" class="block min-[768px]:hidden">
+            <div>
+                <span id="menuButton">
+                    <i class="fa-solid fa-bars text-[30px]"></i>
+                </span>
+            </div>
+
+            <div id="menuContent"
+                class="fixed w-[100%] z-10 left-[-100%] transition-all duration-300 bg-blue-700 min-h-screen top-[0px] left-0">
+                <i id="closeButton"
+                    class="fa-solid fa-close relative top-[20px] left-[20px] text-white text-[30px]"></i>
+                <div class="flex flex-col w-full items-center text-white text-[22px] pt-[100px] gap-y-[30px]">
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#products">Our Products</a>
+                    <a href="#features">Features</a>
+                    <a href="#footer">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <!-- MAIN CONTENT SECTION BEGINS HERE -->
+    <section class="bg-main flex flex-row items-center justify-center w-full container" id="home">
+        <div class="flex flex-col w-[95%] xl:w-[50%] 2xl:max-w-[55%]">
+            <h1
+                class="text-[50px] md:text-[70px] 2xl:text-[90px] tracking-tighter font-bold radiant-text md:leading-[100px]">
+                Advance
+                Ecommerce Ziofy
+            </h1>
+
+
+            <p class="text-slate-700 text-[15px] 2xl:text-[18px] tracking-tight mt-[30px]">
+                A digital platform where businesses and individuals can showcase and sell
+                their products or <br> services to a global audience over the internet
+            </p>
+
+            <div class="flex flex-row items-center gap-x-[40px] mt-[50px] md:mt-[100px]">
+                <button class="text-white p-5 bg-[#2875D9] px-12 hover:text-[#2875D9] border-[2px] font-semibold transition duration-300 border-white
+                    hover:border-[#2875D9] hover:bg-white rounded-2xl">
+                    Buy Now
+                </button>
+
+                <button class="text-[#2875D9] p-5 bg-white px-12 hover:text-white border-[2px] font-semibold transition duration-300 border-[#2875D9]
+                hover:border-[#2875D9] hover:bg-[#2875D9] rounded-2xl">
+                    Visit Store
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="min-[0px]:hidden min-[1024px]:flex  flex-col w-[35%] bg-red-500 h-full">
+            <img src="/assets/top2.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- ABOUT US SECTION BEGINS HERE -->
+    <section class="about-section 2xl:pl-[200px]" id="about">
+        <div class="container">
+            <div class="row clearfix ">
+
+                <!--Content Column-->
+                <div class="content-column col-md-6 col-sm-12 col-xs-12">
+                    <div class="inner-column">
+                        <div class="sec-title">
+                            <div class="title">About ZIOFY</div>
+                            <h2>We Are The Leader In <br> ECommerce</h2>
+                        </div>
+                        <div class="text">Welcome to ZIOFY, your premier destination for top-quality products on Amazon.
+                            From electronics to fashion, gadgets to home essentials, we offer a curated selection for
+                            every need. Shop with confidence and convenience, knowing each item meets our high
+                            standards. Experience the luxury of premium goods at your fingertips. Discover ZIOFY on
+                            Amazon today. Contact us at ziofytraders@gmail.com.</div>
+                        <div class="email">Request Quote: <span class="theme_color">ziofytraders@gmail.com</span></div>
+                        <a href="about.html" class="theme-btn btn-style-three">Read More</a>
+                    </div>
+                </div>
+
+                <!--Image Column-->
+                <div class="image-column col-md-4    col-sm-12 col-xs-12 ">
+                    <div class="inner-column " data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="image">
+                            <img src="https://images.unsplash.com/photo-1586880244406-556ebe35f282?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="" class=" object-contain">
+                            <div class="overlay-box">
+                                <div class="year-box"><span class="number">5</span>Years <br> Experience <br> Working
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION BEGINS HERE  -->
+    <div class="feat bg-gray pt-5 pb-5" id="features">
+        <div class="container">
+            <div class="row">
+
+
+                <div class="section-head col-sm-12">
+                    <h1 class="display-1 py-4 text-center">R<span class="rnd">R</span></h1>
+                    <h4><span>Ready to</span> Roll?</h4>
+                    <p> Your premier destination for exquisite Amazon products. With a range spanning electronics,
+                        fashion, gadgets, and home essentials, <br>we guarantee top-tier quality in every item.
+                        Experience
+                        luxury shopping with ZIOFY today.</p>
+                </div>
+
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_one ">
+                            <i class="fa-solid fa-award"></i>
+                        </span>
+                        <h6 class="text-bold">Award-Winning Excellence</h6>
+                        <p> Elevate your shopping experience with ZIOFY's award-winning products. From cutting-edge
+                            technology to timeless fashion, we bring you the best of the best.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_two">
+                            <i class="fa-solid fa-ranking-star"></i>
+                        </span>
+                        <h6 class="text-bold">Rave Reviews</h6>
+                        <p>Discover why customers love ZIOFY. Our products consistently receive glowing reviews for
+                            their quality, performance, and style.`</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_three">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </span>
+                        <h6 class="text-bold">Swift Delivery</h6>
+                        <p>Need it fast? ZIOFY's lightning-fast delivery ensures you get your order in no time. Because
+                            we know waiting is not an option.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_three">
+                            <i class="fa-solid fa-clock"></i>
+                        </span>
+                        <h6 class="text-bold">24/7 Support</h6>
+                        <p> Got a question? We're here round the clock to assist you. Our dedicated support team ensures
+                            you always have someone to turn to.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_one ">
+                            <i class="fa-solid fa-shield"></i>
+                        </span>
+                        <h6 class="text-bold">Ironclad Protection</h6>
+                        <p>Rest easy knowing your purchases are safe with ZIOFY. Our robust security measures safeguard
+                            your products against piracy and fraud.</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-sm-6">
+                    <div class="item">
+                        <span class="icon feature_box_col_one ">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </span>
+                        <h6 class="text-bold">Convenient Home Delivery</h6>
+                        <p>Sit back, relax, and let ZIOFY bring the shopping to you. With our hassle-free home delivery
+                            service, shopping has never been easier.</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTS SECTION BEGINS HERE -->
+    <section class="my-[100px]" id="products">
+
+        <div class="container">
+            <div class="row">
+
+
+                <div class="section-head col-sm-12">
+                    <h4><span>Discover Our </span> Top Picks</h4>
+                    <p>Dive into ZIOFY's top picks, spanning tech, fashion, and beyond. Find quality and innovation in
+                        every product,
+                        <br> making us your premier shopping destination.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="grid items-center justify-items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[60px]">
+            <div class="bg-white w-[90%] sm:w-[60%] md:w-[300px]  xl:w-[400px] h-[500px]  rounded-lg shadow-lg p-6">
+                <div class="relative">
+                    <img src="https://m.media-amazon.com/images/I/418-2r7n1hL._AC_SL1080_.jpg" alt="Product Image"
+                        class="w-full h-[300px] object-cover rounded-lg max-w-full object-contain object-center "
+                        style="object-fit: contain;">
+                    <div
+                        class="absolute top-2 right-2 bg-green-500 text-white px-2 py-1 rounded-full text-lg font-semibold">
+                        In Stock</div>
+                </div>
+                <div class="details mt-6">
+                    <h3 class="text-[22px] font-semibold mb-2">40oz Tumbler with Straw</h3>
+                    <p class="text-[13px] text-gray-500 mb-4">Availability: <span
+                            class="text-green-500 font-semibold">In
+                            Stock</span></p>
+
+                    <div class="flex flex-row items-end mb-3">
+                        <div>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                        </div>
+
+                        <span class="text-[12px] text-slate-500">(244 Reviews)</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Price: $17.83</p>
+
+                    <a href="https://www.amazon.co.uk/dp/B0CD67M4MB?ref=cm_sw_r_cso_wa_apin_dp_57MVBKK2RNKH4TWS3RD4&ref_=cm_sw_r_cso_wa_apin_dp_57MVBKK2RNKH4TWS3RD4&social_share=cm_sw_r_cso_wa_apin_dp_57MVBKK2RNKH4TWS3RD4&starsLeft=1&skipTwisterOG=1&th=1"
+                        class="w-full">
+                        <button
+                            class="add-to-cart bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md w-full focus:outline-none focus:ring-2 focus:ring-blue-500">Buy
+                            Now</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-white w-[90%] sm:w-[60%] md:w-[300px]  xl:w-[400px] h-[500px]  rounded-lg shadow-lg p-6">
+                <div class="relative">
+                    <img src="https://m.media-amazon.com/images/I/71ZCoy+vt6L._AC_SL1500_.jpg" alt="Product Image"
+                        class="w-full h-[300px] object-cover rounded-lg max-w-full object-contain object-center "
+                        style="object-fit: contain;">
+                    <div
+                        class="absolute top-2 right-2 bg-green-500 text-white px-2 py-1 rounded-full text-lg font-semibold">
+                        In Stock</div>
+                </div>
+                <div class="details mt-6">
+                    <h3 class="text-[22px] font-semibold mb-2">3 in 1, Steamy Cat Brush</h3>
+                    <p class="text-[13px] text-gray-500 mb-4">Availability: <span
+                            class="text-green-500 font-semibold">In
+                            Stock</span></p>
+
+                    <div class="flex flex-row items-end mb-3">
+                        <div>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                        </div>
+
+                        <span class="text-[12px] text-slate-500">(58 Reviews)</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Price: $7.63</p>
+
+                    <a href="https://amzn.eu/d/a3AEQAx" class="w-full">
+                        <button
+                            class="add-to-cart bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md w-full focus:outline-none focus:ring-2 focus:ring-blue-500">Buy
+                            Now</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-white w-[90%] sm:w-[60%] md:w-[300px]  xl:w-[400px] h-[500px]  rounded-lg shadow-lg p-6">
+                <div class="relative">
+                    <img src="https://m.media-amazon.com/images/I/71mkPkH8D3L._AC_SL1500_.jpg" alt="Product Image"
+                        class="w-full h-[300px] object-cover rounded-lg max-w-full object-contain object-center "
+                        style="object-fit: contain;">
+                    <div
+                        class="absolute top-2 right-2 bg-green-500 text-white px-2 py-1 rounded-full text-lg font-semibold">
+                        In Stock</div>
+                </div>
+                <div class="details mt-6">
+                    <h3 class="text-[22px] font-semibold mb-2">Large Gaming Mouse Pad </h3>
+                    <p class="text-[13px] text-gray-500 mb-4">Availability: <span
+                            class="text-green-500 font-semibold">In
+                            Stock</span></p>
+
+                    <div class="flex flex-row items-end mb-3">
+                        <div>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                        </div>
+
+                        <span class="text-[12px] text-slate-500">(119 Reviews)</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Price: $10.99</p>
+
+                    <a href="https://amzn.eu/d/d5isbDn" class="w-full">
+                        <button
+                            class="add-to-cart bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md w-full focus:outline-none focus:ring-2 focus:ring-blue-500">Buy
+                            Now</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-white w-[90%] sm:w-[60%] md:w-[300px]  xl:w-[400px] h-[500px]  rounded-lg shadow-lg p-6">
+                <div class="relative">
+                    <img src="https://m.media-amazon.com/images/I/51QV6sp-VoL._AC_SL1072_.jpg" alt="Product Image"
+                        class="w-full h-[300px] object-cover rounded-lg max-w-full object-contain object-center "
+                        style="object-fit: contain;">
+                    <div
+                        class="absolute top-2 right-2 bg-green-500 text-white px-2 py-1 rounded-full text-lg font-semibold">
+                        In Stock</div>
+                </div>
+                <div class="details mt-6">
+                    <h3 class="text-[22px] font-semibold mb-2">2PCS Crevice Cleaning Brush </h3>
+                    <p class="text-[13px] text-gray-500 mb-4">Availability: <span
+                            class="text-green-500 font-semibold">In
+                            Stock</span></p>
+
+                    <div class="flex flex-row items-end mb-3">
+                        <div>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                        </div>
+
+                        <span class="text-[12px] text-slate-500">(122 Reviews)</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Price: $3.17</p>
+
+                    <a href="https://amzn.eu/d/eUEW6Uu" class="w-full">
+                        <button
+                            class="add-to-cart bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md w-full focus:outline-none focus:ring-2 focus:ring-blue-500">Buy
+                            Now</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-white w-[90%] sm:w-[60%] md:w-[300px]  xl:w-[400px] h-[500px]  rounded-lg shadow-lg p-6">
+                <div class="relative">
+                    <img src="https://m.media-amazon.com/images/I/61KlPB3p0gL._AC_SL1500_.jpg" alt="Product Image"
+                        class="w-full h-[300px] object-cover rounded-lg max-w-full  object-center "
+                        style="object-fit: contain;">
+                    <div
+                        class="absolute top-2 right-2 bg-green-500 text-white px-2 py-1 rounded-full text-lg font-semibold">
+                        In Stock</div>
+                </div>
+                <div class="details mt-6">
+                    <h3 class="text-[22px] font-semibold mb-2">Hydrating Lip Oil Lip Glow</h3>
+                    <p class="text-[13px] text-gray-500 mb-4">Availability: <span
+                            class="text-green-500 font-semibold">In
+                            Stock</span></p>
+
+                    <div class="flex flex-row items-end mb-3">
+                        <div>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                        </div>
+
+                        <span class="text-[12px] text-slate-500">(144 Reviews)</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Price: $5.98</p>
+
+                    <a href="https://amzn.eu/d/5Jg7EC7" class="w-full">
+                        <button
+                            class="add-to-cart bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md w-full focus:outline-none focus:ring-2 focus:ring-blue-500">Buy
+                            Now</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-white w-[90%] sm:w-[60%] md:w-[300px]  xl:w-[400px] h-[500px]  rounded-lg shadow-lg p-6">
+                <div class="relative">
+                    <img src="https://m.media-amazon.com/images/I/61rfKJOaMfL._AC_SL1080_.jpg" alt="Product Image"
+                        class="w-full h-[300px] object-cover rounded-lg max-w-full object-contain object-center "
+                        style="object-fit: contain;">
+                    <div
+                        class="absolute top-2 right-2 bg-green-500 text-white px-2 py-1 rounded-full text-lg font-semibold">
+                        In Stock</div>
+                </div>
+                <div class="details mt-6">
+                    <h3 class="text-[22px] font-semibold mb-2">Magnetic Chess Set </h3>
+                    <p class="text-[13px] text-gray-500 mb-4">Availability: <span
+                            class="text-green-500 font-semibold">In
+                            Stock</span></p>
+
+                    <div class="flex flex-row items-end mb-3">
+                        <div>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                            <i class="fa-solid fa-star text-[#FEC200]"></i>
+                        </div>
+
+                        <span class="text-[12px] text-slate-500">(14 Reviews)</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Price: $10.99</p>
+
+                    <a href="https://amzn.eu/d/hneM7DW" class="w-full">
+                        <button
+                            class="add-to-cart bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md w-full focus:outline-none focus:ring-2 focus:ring-blue-500">Buy
+                            Now</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FOOTER SECTION BEGINS HERE  -->
+    <footer class="footer-section w-full" id="footer">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>321-323 High Road ,Office No-4125 ,RomFord ,England</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>00447973834434</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>ziofytraders@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo w-[300px]">
+                                <a href="index.html"><img src="/assets/logo.png" class=" h-[300px]"
+                                        style="object-fit: cover;" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Your premier destination for exquisite Amazon products. With a range spanning
+                                    electronics, fashion, gadgets, and home essentials,
+                                    we guarantee top-tier quality in every item</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#products">Our Products</a></li>
+                                <li><a href="#features">Features</a></li>
+                                <li><a href="#footer">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2024-2025 | All Rights Reserved By Respective Owners </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#products">Our Products</a></li>
+                                <li><a href="#features">Features</a></li>
+                                <li><a href="#footer">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        // Get menu elements
+        const menuButton = document.getElementById('menuButton');
+        const closeButton = document.getElementById('closeButton');
+        const menuContent = document.getElementById('menuContent');
+
+        // Add event listener for menu button click
+        menuButton.addEventListener('click', function () {
+            console.log("Clicked");
+            menuContent.classList.add('left-[0]');
+            menuContent.classList.remove('-left-[100%]');
+        });
+
+        // Add event listener for close button click
+        closeButton.addEventListener('click', function () {
+            console.log("Clicked");
+            menuContent.classList.remove('left-[0]');
+            menuContent.classList.add('-left-[100%]');
+        });
+    </script>
+</body>
+
+</html>
